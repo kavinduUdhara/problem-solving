@@ -7,3 +7,6 @@ def miniMaxSum(arr):
 
 print(miniMaxSum([1, 2, 3, 4, 5])) #10 14
 print(miniMaxSum([396285104, 573261094, 759641832, 819230764, 364801279])) #2093989309 2548418794
+print(miniMaxSum([140638725, 436257910, 953274816, 734065819, 362748590])) 
+
+#time complexity O(n)
