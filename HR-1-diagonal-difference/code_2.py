@@ -4,6 +4,7 @@ def diagonalDifference(arr):
     
     len_of_arr = len(arr) #In general, it's a good practice to avoid calling len() in a loop if possible
     lenght = len(arr) - 1
+    
     for i in range(len_of_arr):
         left_to_right += (arr[i][i])
         right_to_left += (arr[i][lenght])
